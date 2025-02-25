@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Origin Tech - Transformamos ideias em tecnologia. Desenvolvemos soluções digitais personalizadas para impulsionar seu negócio.">
+  <meta name="keywords" content="software house, desenvolvimento web, aplicativos mobile, sistemas desktop, tecnologia">
+  <meta name="author" content="Origin Tech">
+  <title>Origin Tech - Transformando Ideias em Tecnologia</title>
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- Barra de progresso de scroll -->
+  <div class="scroll-progress"></div>
+
+  <!-- Tela de carregamento -->
+  <div class="loading-screen">
+    <div class="loader">
+      <div class="hexagon"></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="assets/images/logo.png" alt="Logo Origin Tech" class="navbar-logo">
+      <h1 class="navbar-company-name">Origin Tech</h1>
+    </div>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#parceiros">Parceiros</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+    <button class="toggle-button">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Seção Hero -->
+  <section id="home" class="hero" data-aos="fade-down">
+    <div class="hero-content">
+      <h1 class="animated-text" data-original-html="Transformando sua ideia <span class='mobile-break'>em tecnologia</span>">
+        Transformando sua ideia <span class="mobile-break">em tecnologia</span>
+      </h1>
+      <p class="slide-up">Soluções digitais inovadoras para impulsionar seu negócio</p>
+      <a href="https://api.whatsapp.com/send?phone=5585999533230" target="_blank" class="cta-button pulse">
+        <i class="fas fa-rocket"></i> Comece seu projeto
+      </a>
+    </div>
+    <div class="parallax-bg" style="background-image: url('https://source.unsplash.com/1920x1080/?technology,abstract');"></div>
+    <div class="floating-icons">
+      <i class="fas fa-code floating-icon"></i>
+      <i class="fas fa-server floating-icon"></i>
+      <i class="fas fa-mobile-alt floating-icon"></i>
+    </div>
+  </section>
+
+  <!-- Seção Sobre a Empresa -->
+  <section id="sobre" class="about" data-aos="fade-up">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>Sobre a Empresa</h2>
+        <p>A Origin Tech transforma ideias em soluções digitais de alto impacto. Utilizamos tecnologia de ponta para criar experiências únicas e impulsionar seu negócio no mundo digital.</p>
+      </div>
+      <div class="about-image">
+        <img src="assets/images/logo2.png" alt="Sobre a Origin Tech">
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Serviços -->
+  <section id="services" class="services" data-aos="fade-up">
+    <h2 class="scroll-animation">Nossos Serviços</h2>
+    <div class="services-grid">
+      <div class="service-card hover-scale">
+        <i class="fas fa-laptop-code bounce"></i>
+        <h3>Desenvolvimento Web</h3>
+        <p>Sites modernos, responsivos e otimizados para performance e SEO.</p>
+      </div>
+      <div class="service-card hover-scale">
+        <i class="fas fa-desktop bounce"></i>
+        <h3>Software Desktop</h3>
+        <p>Soluções personalizadas para maximizar a eficiência do seu negócio.</p>
+      </div>
+      <div class="service-card hover-scale">
+        <i class="fas fa-mobile-alt bounce"></i>
+        <h3>Aplicativos Mobile</h3>
+        <p>Apps intuitivos e inovadores para iOS e Android.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Projetos (Carrossel) -->
+  <section id="projetos" class="projects" data-aos="fade-up">
+    <h2 class="scroll-animation">Projetos Recentes</h2>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="carousel-item">
+          <div class="project-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/10989/10989699.png" alt="Sistema de Gestão">
+            <div class="project-overlay">
+              <h3>Sistema de Gestão</h3>
+              <p>Solução completa para gestão empresarial com interface intuitiva.</p>
+              <div class="tech-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <a href="#" class="project-link">Ver Detalhes →</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card">
+            <img src="assets/images/ico_comprar.png" alt="Plataforma E-commerce">
+            <div class="project-overlay">
+              <h3>Plataforma E-commerce</h3>
+              <p>Loja virtual com integração completa de pagamentos e experiência diferenciada.</p>
+              <div class="tech-tags">
+                <span>Vue.js</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+              </div>
+              <a href="#" class="project-link">Ver Detalhes →</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="project-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/9639/9639056.png" alt="Gestão de Inventário">
+            <div class="project-overlay">
+              <h3>Gestão de Inventário</h3>
+              <p>Solução completa para controle de estoque e integração de pagamentos.</p>
+              <div class="tech-tags">
+                <span>Vue.js</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+              </div>
+              <a href="#" class="project-link">Ver Detalhes →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn prev">❮</button>
+      <button class="carousel-btn next">❯</button>
+      <div class="carousel-dots"></div>
+    </div>
+  </section>
+
+  <!-- Seção Parceiros (Atualizada) -->
+  <!-- Seção Parceiros -->
+<section id="parceiros" class="partners" data-aos="fade-up">
+  <h2 class="scroll-animation">Nossos Parceiros</h2>
+  <div class="partners-grid">
+      <div class="partner-card">
+          <a href="https://skepping.com.br/" target="_blank">
+              <img src="https://skepping.com.br/wp-content/uploads/2022/05/Design-sem-nome-29.png" alt="Skepping Comunicação">
+          </a>
+      </div>
+      <div class="partner-card">
+          <a href="https://reismarcasepatentes.com.br" target="_blank">
+              <img src="assets/images/logo_reis_mp-removebg-preview.png" alt="Reis Marcas e Patentes">
+          </a>
+      </div>
+      <div class="partner-card">
+          <a href="https://betatesting.com" target="_blank">
+              <img src="assets/images/sua_marca_aqui-removebg-preview.png" alt="Beta Testing">
+          </a>
+      </div>
+  </div>
+</section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="contact" data-aos="fade-up">
+    <div class="contact-form">
+      <h2 class="float-in">Vamos Conversar!</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" required>
+          <label>Nome</label>
+        </div>
+        <div class="form-group">
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="form-group">
+          <textarea required></textarea>
+          <label>Mensagem</label>
+        </div>
+        <button class="btn-hover-effect">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer" data-aos="fade-up">
+    <div class="footer-content">
+      <div class="footer-info">
+        <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p>
+        <p>Email: contato@origintech.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#parceiros">Parceiros</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="social-links">
+        <a href="https://facebook.com/origintech" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/origintech" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/company/origintech" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <p>© 2025 Origin Tech - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
